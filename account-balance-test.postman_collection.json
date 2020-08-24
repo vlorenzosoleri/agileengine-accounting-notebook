@@ -41,7 +41,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": ""
+							"value": "e233423a-8c00-4953-8c1d-98a5ad2aa498"
 						}
 					]
 				}
@@ -55,7 +55,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"type\": \"CREDIT\",\n    \"amount\": 100.44\n}",
+					"raw": "{\n    \"type\": \"CREDIT\",\n    \"amount\": 42000\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -81,7 +81,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "localhost:8081/default",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"default"
+					]
 				}
 			},
 			"response": []
