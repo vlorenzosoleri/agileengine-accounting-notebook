@@ -1,6 +1,6 @@
-#Accounting notebook - Backend test
+# Accounting notebook - Backend test
 
-#Get started
+# Get started
 
 This project requires Java 11 or higher to run.
 To run the project, make that your JAVA_HOME environment variable is pointing to a JDK 11+ and run
@@ -19,7 +19,7 @@ The web service will start in localhost:8081
 
 To test the application you can use Postman with the collection provided in `account-balance-test.postman_collection.json`
 
-#Requirements
+# Requirements
 
 We are looking to build a money accounting system. The application should be a web service. It should not do any real “transactional” work, just emulate the financial transactions logic (debit and credit).
 
@@ -31,7 +31,7 @@ No real persistence is expected. Please don't invest time into DB integration.
 
 Please avoid wasting time for complex project configuration. Use configuration from an existing project, if you have one, or use project skeleton generation tools for your technologies. Default configuration would be completely enough.
 
-##Must have
+## Must have
 
 - Service must store the account value of the single user.
 - Service must be able to accept credit and debit financial transactions and update the account value correspondingly.
@@ -42,7 +42,7 @@ Please avoid wasting time for complex project configuration. Use configuration f
 - It should be possible to launch project/projects by a single-line-command. Please provide README.md
 - Target completion time is 3 hours. We would rather see what you were able to do in 3 hours than a full-blown application you’ve spent days implementing. Note that in addition to quality, time used is also factored into scoring the task.
 
-##UX/UI requirements:
+## UX/UI requirements:
 
 - We need a simple UI application for this web service.
 - Please don't spend time for making it beautiful. Use a standard CSS library, like Bootstrap with a theme (or any other).
@@ -50,7 +50,7 @@ Please avoid wasting time for complex project configuration. Use configuration f
 - Transactions list should be done in accordion manner. By default the list shows short summary (type and amount) for each transaction. Full info for a transaction should be shown on user's click.
 - It would be good to have some coloring for credit and debit transactions.
 
-##Expected Deliverables
+## Expected Deliverables
 
 - Source code.
 - Binary versions of your applications that are ready to run. No build should be required.
